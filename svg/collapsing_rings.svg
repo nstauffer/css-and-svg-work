@@ -1,0 +1,151 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width = "200"
+  height = "200">
+<defs>
+  <radialGradient
+    id = 'radiant-gradient'
+    cx = '50%'
+    cy = '50%'
+    r = '50%'
+    fx = '50%'
+	fy = '50%'>
+    <stop
+	  offset = '0%'
+	  stop-color = '#d4af37'
+      stop-opacity = '0'
+	/>
+	<stop
+	  offset = '80%'
+	  stop-color = '#d4af37'
+      stop-opacity = '0'
+	/>
+    <stop
+	  offset = '100%'
+	  stop-color = '#d4af37'
+	  stop-opacity = '1'
+	/>
+  </radialGradient>
+</defs>
+
+<circle
+  id = "circle-1"
+  class = "circle-1"
+  cx = "145"
+  cy = "100"
+  r = "38"
+  fill = "none"
+  stroke = "#d4af37"
+  stroke-width = "4"
+/>
+<circle
+  id = "circle-2"
+  class = "circle-2"
+  cx = "77.5"
+  cy = "139"
+  r = "38"
+  fill = "none"
+  stroke = "#d4af37"
+  stroke-width = "4"
+/>
+<circle
+  id = "circle-3"
+  class = "circle-3"
+  cx = "77.5"
+  cy = "61"
+  r = "38"
+  fill = "none"
+  stroke = "#d4af37"
+  stroke-width = "4"
+/>
+
+<style>
+   .circle-1 {
+	  animation-delay: 0s;
+	  animation-name: spin-1;
+	  animation-duration: 10s;
+	  animation-iteration-count: infinite;
+	  animation-timing-function: linear;
+   }
+   .circle-2 {
+	  animation-delay: 0s;
+	  animation-name: spin-2;
+	  animation-duration: 10s;
+	  animation-iteration-count: infinite;
+	  animation-timing-function: linear;
+   }
+   .circle-3 {
+	  animation-delay: 0s;
+	  animation-name: spin-3;
+	  animation-duration: 10s;
+	  animation-iteration-count: infinite;
+	  animation-timing-function: linear;
+   }
+   @keyframes spin-1 {
+     0% {
+	   transform: rotate(0deg);
+	   transform-origin: center;
+	 }
+	 25% {
+	   transform: rotate(360deg);
+	   transform-origin: center;
+	 }
+	 50% {
+	   transform: rotate(720deg) translate(-45px, 0px);
+	   transform-origin: center;
+	 }
+	 75 % {
+	   transform: rotate(1080deg) translate(-45px, 0px);
+	   transform-origin: center;
+	 }
+	 100% {
+	   transform: rotate(1440deg);
+	   transform-origin: center;
+	 }
+   }
+   @keyframes spin-2 {
+     0% {
+	   transform: rotate(0deg);
+	   transform-origin: center;
+	 }
+	 25% {
+	   transform: rotate(360deg);
+	   transform-origin: center;
+	 }
+	 50% {
+	   transform: rotate(720deg) translate(22.5px, -39px);
+	   transform-origin: center;
+	 }
+	 75 % {
+	   transform: rotate(1080deg) translate(22.5px, -39px);
+	   transform-origin: center;
+	 }
+	 100% {
+	   transform: rotate(1440deg);
+	   transform-origin: center;
+	 }
+   }
+   @keyframes spin-3 {
+     0% {
+	   transform: rotate(0deg);
+	   transform-origin: center;
+	 }
+	 25% {
+	   transform: rotate(360deg);
+	   transform-origin: center;
+	 }
+	 50% {
+	   transform: rotate(720deg) translate(22.5px, 39px);
+	   transform-origin: center;
+	 }
+	 75 % {
+	   transform: rotate(1080deg) translate(22.5px, 39px);
+	   transform-origin: center;
+	 }
+	 100% {
+	   transform: rotate(1440deg);
+	   transform-origin: center;
+	 }
+   }
+</style>
+</svg>

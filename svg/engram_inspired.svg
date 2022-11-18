@@ -1,0 +1,284 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width = "1000"
+  height = "1000">
+  <circle
+    id = "outermost-ring"
+	class = 'pulsing'
+    cx = "50%"
+    cy = "50%"
+	r = "45%"
+	fill = "none"
+	stroke = "#d4af37"
+	stroke-width = "0.5%"
+  />
+  <circle
+    class = 'inner-heptagon'
+    id = "dashed-ring"
+    cx = "50%"
+    cy = "50%"
+	r = "25%"
+	fill = "none"
+	stroke = '#d4af37'
+	stroke-width = "0.4%"
+	stroke-dasharray = '1% 3%'
+  />
+  <circle
+    id = 'inner-static-ring'
+	cx = "50%"
+    cy = "50%"
+	r = "10%"
+	stroke = 'none'
+	fill = 'url(#inner-circle-gradient)'
+  />
+  
+  <circle
+    id = "radiant-1"
+	class = "radiance-1"
+    cx = "50%"
+    cy = "50%"
+	r = "35%"
+	fill = "none"
+	stroke = "#d4af37"
+	stroke-width = "15%"
+	stroke-dasharray = "0.5% 10%"
+  />
+  <circle
+    id = "radiant-2"
+	class = "radiance-2"
+    cx = "50%"
+    cy = "50%"
+	r = "35%"
+	fill = "none"
+	stroke = "#d4af37"
+	stroke-width = "15%"
+	stroke-dasharray = "0.5% 10%"
+  />
+  <circle
+    id = "radiant-3"
+	class = "radiance-3"
+    cx = "50%"
+    cy = "50%"
+	r = "35%"
+	fill = "none"
+	stroke = "#d4af37"
+	stroke-width = "15%"
+	stroke-dasharray = "0.5% 10%"
+  />
+
+<circle class = 'ring-of-rings' cx = '700' cy = '500' r = '2%' stroke-width = '0.4%' stroke = '#d4af37' fill = 'none'/>
+<circle class = 'ring-of-rings' cx = '680.193773580484' cy = '586.776747823512' r = '2%' stroke-width = '0.4%' stroke = '#d4af37' fill = 'none'/>
+<circle class = 'ring-of-rings' cx = '624.697960371747' cy = '656.366296493606' r = '2%' stroke-width = '0.4%' stroke = '#d4af37' fill = 'none'/>
+<circle class = 'ring-of-rings' cx = '544.504186791263' cy = '694.985582436365' r = '2%' stroke-width = '0.4%' stroke = '#d4af37' fill = 'none'/>
+<circle class = 'ring-of-rings' cx = '455.495813208737' cy = '694.985582436365' r = '2%' stroke-width = '0.4%' stroke = '#d4af37' fill = 'none'/>
+<circle class = 'ring-of-rings' cx = '375.302039628253' cy = '656.366296493606' r = '2%' stroke-width = '0.4%' stroke = '#d4af37' fill = 'none'/>
+<circle class = 'ring-of-rings' cx = '319.806226419516' cy = '586.776747823512' r = '2%' stroke-width = '0.4%' stroke = '#d4af37' fill = 'none'/>
+<circle class = 'ring-of-rings' cx = '300' cy = '500' r = '2%' stroke-width = '0.4%' stroke = '#d4af37' fill = 'none'/>
+<circle class = 'ring-of-rings' cx = '319.806226419516' cy = '413.223252176488' r = '2%' stroke-width = '0.4%' stroke = '#d4af37' fill = 'none'/>
+<circle class = 'ring-of-rings' cx = '375.302039628253' cy = '343.633703506394' r = '2%' stroke-width = '0.4%' stroke = '#d4af37' fill = 'none'/>
+<circle class = 'ring-of-rings' cx = '455.495813208737' cy = '305.014417563635' r = '2%' stroke-width = '0.4%' stroke = '#d4af37' fill = 'none'/>
+<circle class = 'ring-of-rings' cx = '544.504186791263' cy = '305.014417563635' r = '2%' stroke-width = '0.4%' stroke = '#d4af37' fill = 'none'/>
+<circle class = 'ring-of-rings' cx = '624.697960371747' cy = '343.633703506394' r = '2%' stroke-width = '0.4%' stroke = '#d4af37' fill = 'none'/>
+<circle class = 'ring-of-rings' cx = '680.193773580484' cy = '413.223252176488' r = '2%' stroke-width = '0.4%' stroke = '#d4af37' fill = 'none'/>
+
+<path
+  class = 'inner-heptagon'
+  fill = 'none'
+  stroke = '#d4af37'
+  stroke-width = '0.75%'
+  d = 'M665 500 M602.88 629 M463.28 660.86 M351.34 571.59 M351.34 428.41 M463.28 339.14 M602.88 371 L665 500 L602.88 629 L463.28 660.86 L351.34 571.59 L351.34 428.41 L463.28 339.14 L602.88 371 L665 500 L602.88 629 L463.28 660.86 L351.34 571.59 L351.34 428.41 L463.28 339.14 L602.88 371 L665 500 L602.88 629 L463.28 660.86 L351.34 571.59 L351.34 428.41 L463.28 339.14 L602.88 371 L665 500 L602.88 629 L463.28 660.86 L351.34 571.59 L351.34 428.41 L463.28 339.14 L602.88 371 L665 500 L602.88 629 L463.28 660.86 L351.34 571.59 L351.34 428.41 L463.28 339.14 L602.88 371 L665 500 L602.88 629 L463.28 660.86 L351.34 571.59 L351.34 428.41 L463.28 339.14 L602.88 371Z'/>
+<path
+  class = 'inner-heptagon'
+  fill = 'none'
+  stroke = '#d4af37'
+  stroke-width = '0.5%'
+  d = 'M655 500 M596.64 621.18 M465.51 651.11 M360.35 567.25 M360.35 432.75 M465.51 348.89 M596.64 378.82 L655 500 L596.64 621.18 L465.51 651.11 L360.35 567.25 L360.35 432.75 L465.51 348.89 L596.64 378.82 L655 500 L596.64 621.18 L465.51 651.11 L360.35 567.25 L360.35 432.75 L465.51 348.89 L596.64 378.82 L655 500 L596.64 621.18 L465.51 651.11 L360.35 567.25 L360.35 432.75 L465.51 348.89 L596.64 378.82 L655 500 L596.64 621.18 L465.51 651.11 L360.35 567.25 L360.35 432.75 L465.51 348.89 L596.64 378.82 L655 500 L596.64 621.18 L465.51 651.11 L360.35 567.25 L360.35 432.75 L465.51 348.89 L596.64 378.82 L655 500 L596.64 621.18 L465.51 651.11 L360.35 567.25 L360.35 432.75 L465.51 348.89 L596.64 378.82Z'/>
+
+  
+<defs>
+  <radialGradient
+    id = 'radiant-gradient'
+    cx = '50%'
+    cy = '50%'
+    r = '50%'
+    fx = '50%'
+	fy = '50%'>
+    <stop
+	  offset = '0%'
+	  stop-color = '#d4af37'
+      stop-opacity = '0'
+	/>
+	<stop
+	  offset = '80%'
+	  stop-color = '#d4af37'
+      stop-opacity = '0'
+	/>
+    <stop
+	  offset = '100%'
+	  stop-color = '#d4af37'
+	  stop-opacity = '1'
+	/>
+  </radialGradient>
+  <radialGradient
+    id = 'inner-circle-gradient'
+    cx = '50%'
+    cy = '50%'
+    r = '50%'
+    fx = '50%'
+	fy = '50%'>
+    <stop
+	  offset = '0%'
+	  stop-color = '#d4af37'
+      stop-opacity = '0'
+	/>
+	<stop
+	  offset = '65%'
+	  stop-color = '#d4af37'
+      stop-opacity = '0'
+	/>
+    <stop
+	  offset = '100%'
+	  stop-color = '#d4af37'
+	  stop-opacity = '1'
+	/>
+  </radialGradient>
+</defs> 
+
+<style>
+  .pulsing {
+    transform-origin: center;
+	animation: pulse;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+  }
+
+  .ring-of-rings {
+    stroke-width: 0.5%;
+	fill: url(#radiant-gradient);
+    transform-origin: center;
+	animation: clockwise;
+	animation-duration: 45s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+  }
+  
+  .inner-heptagon {
+    transform-origin: center;
+	animation: counterclockwise;
+	animation-duration: 45s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+  }
+  
+  .radiance-1 {
+    stroke: url(#radiant-gradient);
+    transform-origin: center;
+    animation: radiate-1;
+	animation-duration: 6s;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear;
+  }
+  .radiance-2 {
+    stroke: url(#radiant-gradient);
+    transform-origin: center;
+    animation: radiate-2;
+	animation-duration: 6s;
+	animation-delay: -2s;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear;
+  }
+  .radiance-3 {
+    stroke: url(#radiant-gradient);
+    transform-origin: center;
+    animation: radiate-3;
+	animation-delay: -4s;
+	animation-duration: 6s;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear;
+  }
+  
+  @keyframes radiate-1 {
+    0% {
+	  transform: scale(0.9);
+	}
+    33% {
+	  transform: scale(1);
+	}
+	67% {
+	  transform: scale(1.05);
+	}
+	100% {
+	  transform: scale(0.9);
+	}
+  }
+  @keyframes radiate-2 {
+    0% {
+	  transform: scale(0.9) rotate(5deg);
+	}
+    33% {
+	  transform: scale(1) rotate(5deg);
+	}
+	67% {
+	  transform: scale(1.05) rotate(5deg);
+	}
+	100% {
+	  transform: scale(0.9) rotate(5deg);
+	}
+  }
+  @keyframes radiate-3 {
+    0% {
+	  transform: scale(0.9) rotate(10deg);
+	}
+    33% {
+	  transform: scale(1) rotate(10deg);
+	}
+	67% {
+	  transform: scale(1.05) rotate(10deg);
+	}
+	100% {
+	  transform: scale(0.9) rotate(10deg);
+	}
+  }
+  
+  @keyframes clockwise {
+    from {
+	  transform: rotate(0deg)
+	}
+	to {
+	  transform: rotate(359deg)
+	}
+  }
+  @keyframes counterclockwise {
+    from {
+	  transform: rotate(0deg)
+	}
+	to {
+	  transform: rotate(-359deg)
+	}
+  }
+  
+  @keyframes pulse {
+     0% {
+	   transform: scale(0);
+	   opacity: 0;
+	 }
+	 10% {
+	   transform: scale(0.35);
+	   opacity: 0;
+	 }
+	 20% {
+	   transform: scale(0.4);
+	   opacity: 0.5;
+	 }
+	 75% {
+	   transform: scale(0.95);
+	   opacity: 1;
+	 }
+	 100% {
+	   transform: scale(1.05);
+	   opacity: 0;
+	 }
+   }
+</style>
+</svg>

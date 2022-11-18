@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="864" height="864" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect
+    class="outer"
+	width="100"
+	height="100"
+	fill = "#CE6F31"
+    fill-opacity = "0.001"
+    stroke = "black"
+	stroke-width = "10"
+	<animateTransform
+      attributeName = "transform"
+      attributeType = "XML"
+      type = "rotate"
+      from = "0"
+      to = "359"
+      dur = "2s"
+      repeatCount="indefinite" />
+  />
+</svg>

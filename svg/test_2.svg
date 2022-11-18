@@ -1,0 +1,110 @@
+<svg
+  xmlns = "http://www.w3.org/2000/svg"
+  width = "170"
+  height = "170"
+  xmlns:xlink = "http://www.w3.org/1999/xlink">
+  <circle
+    class = "pulse-ring"
+	vector-effect = "non-scaling-stroke"
+    cx = "85"
+    cy = "85"
+    r = "78"
+    stroke = "black"
+    stroke-width = "2"
+    fill = "black"
+    fill-opacity = "0.001"
+  />
+  <circle
+    cx = "85"
+	cy = "85"
+    r = "78"
+	stroke = "black"
+	stroke-width = "2"
+	fill = "black"
+	fill-opacity = "0.001"
+  />
+  <rect
+    class = "outer-square"
+	x = "35"
+	y = "35"
+	width = "100"
+	height = "100"
+	fill = "#CE6F31"
+    fill-opacity = "0.001"
+    stroke = "black"
+	stroke-width = "10"
+  />
+   <rect
+    class = "inner-square"
+	x = "60"
+	y = "60"
+	width = "50"
+	height = "50"
+	fill = "#CE6F31"
+    fill-opacity = "0.001"
+    stroke = "black"
+	stroke-width = "7"
+  />
+  <rect
+    class = "innermost-square"
+	x = "75"
+	y = "75"
+	width = "20"
+	height = "20"
+	fill = "#CE6F31"
+    fill-opacity = "0.001"
+    stroke = "black"
+	stroke-width = "4"
+  />
+<style>
+.outer-square {
+  transform-origin: center;
+  animation: rotation-clockwise 15s infinite linear;
+}
+.inner-square {
+  transform-origin: center;
+  animation: rotation-counterclockwise 10s infinite linear;
+}
+.innermost-square {
+  transform-origin: center;
+  animation: rotation-clockwise 5s infinite linear;
+}
+@keyframes rotation-clockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes rotation-counterclockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
+
+.pulse-ring {
+  transform-origin: center;
+  animation: pulse 2s infinite linear;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0)
+  }
+  50% {
+    transform: scale(0.75)
+  }
+  100% {
+    transform: scale(1)
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .outer-square, inner-square, innermost-square {
+    animation: none;
+  }
+}
+</style></svg>
