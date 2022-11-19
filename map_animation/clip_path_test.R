@@ -12,7 +12,7 @@ poly_strings_list <- lapply(X = 1:length(poly_indices_to_keep),
                             indices = poly_indices[poly_indices_to_keep],
                             raw_svg = raw_svg,
                             FUN = function(X, indices, raw_svg) {
-                              delays <- 6:1.7 / 10
+                              delays <- 6:2.5 / 10
                               
                               poly_string <- raw_svg[indices[X]]
                               
